@@ -1,0 +1,15 @@
+D:\Personal_projects\Code_Ground_VS\bin\Debug\net6.0\Code_Ground_VS.exe
+D:\Personal_projects\Code_Ground_VS\bin\Debug\net6.0\Code_Ground_VS.deps.json
+D:\Personal_projects\Code_Ground_VS\bin\Debug\net6.0\Code_Ground_VS.runtimeconfig.json
+D:\Personal_projects\Code_Ground_VS\bin\Debug\net6.0\Code_Ground_VS.dll
+D:\Personal_projects\Code_Ground_VS\bin\Debug\net6.0\Code_Ground_VS.pdb
+D:\Personal_projects\Code_Ground_VS\obj\Debug\net6.0\Code_Ground_VS.csproj.AssemblyReference.cache
+D:\Personal_projects\Code_Ground_VS\obj\Debug\net6.0\Code_Ground_VS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal_projects\Code_Ground_VS\obj\Debug\net6.0\Code_Ground_VS.AssemblyInfoInputs.cache
+D:\Personal_projects\Code_Ground_VS\obj\Debug\net6.0\Code_Ground_VS.AssemblyInfo.cs
+D:\Personal_projects\Code_Ground_VS\obj\Debug\net6.0\Code_Ground_VS.csproj.CoreCompileInputs.cache
+D:\Personal_projects\Code_Ground_VS\obj\Debug\net6.0\Code_Ground_VS.dll
+D:\Personal_projects\Code_Ground_VS\obj\Debug\net6.0\refint\Code_Ground_VS.dll
+D:\Personal_projects\Code_Ground_VS\obj\Debug\net6.0\Code_Ground_VS.pdb
+D:\Personal_projects\Code_Ground_VS\obj\Debug\net6.0\Code_Ground_VS.genruntimeconfig.cache
+D:\Personal_projects\Code_Ground_VS\obj\Debug\net6.0\ref\Code_Ground_VS.dll
