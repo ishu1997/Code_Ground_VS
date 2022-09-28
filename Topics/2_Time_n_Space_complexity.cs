@@ -64,6 +64,27 @@ public class Sorting
             return unSorted;
         }
 
+        // jitna array ban gaya h utna sorted hona chahiye
+        public int[] _insertion_sort(int[] unSorted){
 
+            for(int i=1;i<unSorted.Length;i++){                
+
+               for(int j=i;j>0;j--){
+
+                    if(unSorted[j]<unSorted[j-1]){
+                    var temp = unSorted[j-1];
+                    unSorted[j-1] = unSorted[j];
+                    unSorted[j] = temp;
+                    }
+
+               }
+
+            }
+
+
+
+
+            return unSorted;
+        }
 
     }

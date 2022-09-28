@@ -44,8 +44,8 @@
 
             Sorting sort = new Sorting();
             //var x = sort._bubble_sort(new int[] {1,2,3,4,5,6,0 });
-            var x = sort._selection_sort(new int[] { 1,  3, 5, 6, 4, 2, 0 });
-
+            //var x = sort._selection_sort(new int[] { 1,  3, 5, 6, 4, 2, 0 });
+            var x = sort._insertion_sort(new int[] { 1,2,3,4,5,6 });
             foreach (var i in x)
             {
                 Console.WriteLine(i);
