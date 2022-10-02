@@ -1,6 +1,8 @@
 public class Sorting
 {
 
+    // compare n, n-1 , and move greater to later postition
+    // harr iteration me largest in remaining array apne place par chala jaeyga.
     public int[] _bubble_sort(int[] unSorted)
     {
 
@@ -29,6 +31,8 @@ public class Sorting
         return unSorted;
     }
 
+    // ek ko max ko select kro, end waale se swap karo. 
+    // fir second max ko dhund kr second last se swap karo
     public int[] _selection_sort(int[] unSorted)
     {
         if (unSorted.Length <= 1)
@@ -129,6 +133,7 @@ public class Sorting
         return result;
     }
 
+#region MergeTwoLinkLists
     //slight variation while using list instead of arrays
     // public ListNode MergeTwoLists(ListNode list1, ListNode list2)
     // {
@@ -166,6 +171,23 @@ public class Sorting
 
     // }
 
+#endregion
+
+    // basic concept - ki two sorted arrays ko merge krna h
+    // yeh sorted array ek recursive fxn se milti h jo (0,n/2) -> (n/2+1,n) tak array ko part krta h
+    public int[] _merge_sort(int[] a,int start , int end){
+        if(start>=end){
+            return new int [] {a[start]};
+        }    
+        var mid = (start+end )/2;    // mid ko sahi se pass krna h bas
+        var a1 = _merge_sort(a,start,mid);
+        var a2 = _merge_sort(a,mid+1,end);
+
+        // do sorted arrays ko merge kra lo yaha pe
+        var final = _merge_Two_Sorted_Arrays(a1,a2);
+
+        return final;
+    }
 
 
 }
